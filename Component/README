@@ -1,0 +1,11 @@
+Any VMB Component must comply to the TCP/IP based VMB Protocol.
+
+This allows modularity on the components:
+ - a component can be coded in any language on any platform as long as
+   its implementation can manage sockets,
+ - a component can be easily replaced by another of its revision.
+
+This directory provides sample implementations of VMB Components.
+
+For the original VMB implementation, go to:
+http://vmb.sourceforge.net/
