@@ -1,0 +1,12 @@
+Since VMB is a TCP/IP based bus protocol, it is possible to do protocol
+analysis of the VMB Ethernet traffic.
+
+If all the VMB Components are located on the same Windows PC, one should
+use Windows Message Analyzer.
+
+If the VMB Components are spread on different PCs (Windows or other) and
+connected on the same local network through a switch, then one can use
+Wireshark with a LUA dissector. This directory provides such a dissector.
+
+For the VMB Message Specifications of the VMB Protocol, go to:
+http://vmb.sourceforge.net/messages.html
